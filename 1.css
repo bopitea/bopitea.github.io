@@ -1,0 +1,854 @@
+*{margin:0; padding:0;}
+
+p.motaduoi {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
+.daylen {
+    position: fixed;
+    z-index: 999;
+    background: var(--xanh);
+    height: 51px;
+    width: 51px;
+    right: 32px;
+    color: white;
+    font-size: 25px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 51px;
+    transition: 0.4s;
+    opacity: 0;
+}
+
+.daylen:hover {
+    color: var(--xanh);
+    background: white;
+    /* border: 3px solid var(--xanh); */
+}
+
+.col.lienket {
+    padding-left: 95px;
+}
+
+u.sdt:hover {
+    color: var(--xang);
+}
+
+span.bopi {
+    color: var(--xanh);
+}
+
+.thanhduoi {
+    height: 80px;
+    background: #3a3a3a;
+    color: white;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    line-height: 80px;
+    text-align: center;
+}
+
+i.fa.fa-pen {
+    color: var(--xanh);
+    font-size: 14px;
+}
+
+i.fa.fa-map-marker-alt {
+    color: var(--xanh);
+    padding-top: 26px;
+    position: absolute;
+    z-index: 999;
+    margin-left: -125px;
+    margin-top: 22px;
+    font-size: 14px;
+}
+
+i.fa.fa-mobile-alt {
+    color: var(--xanh);
+    font-size: 14px;
+}
+
+img.ios {
+    margin-top: 16PX;
+    padding-left: 0PX;
+    width: 111px;
+}
+
+img.ios {
+}
+
+img.gg {
+    margin-top: 17px;
+    width: 120px;
+}
+
+p.noidungft:hover {
+    color: var(--xang);
+}
+
+p.noidungft {
+    margin-bottom: 10px;
+    font-size: 16px;
+    transition: 0.4s;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+p.ft5 {
+}
+
+p.ft5:hover {
+    color: var(--xang);
+}
+
+p.ft5 {
+    font-size: 16px;
+    margin-top: 19px;
+    margin-left: 20px;
+    color: var(--xanh);
+    transition: 0.4s;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3.tieudeft {
+    margin-top: 80px;
+}
+
+h3.tieudeft {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    font-family: 'Nunito', sans-serif;
+}
+
+p.motaft {
+    font-size: 16px;
+    width: 230px;
+}
+
+p.motaft {font-family: 'Nunito', sans-serif;}
+
+img.ft {
+    padding-top: 80px;
+    margin-bottom: 20px;
+}
+
+.thanhtren {
+    height: 367px;
+}
+
+.col-2.giohang {
+    margin-left: 0px;
+}
+
+input[type="text mot"] {
+    padding-left: 16px;
+    width: 259px;
+    height: 52px;
+    border-radius: 32px;
+    background: white;
+    border: none;
+    font-size: 16px;
+    margin-left: 764px;
+    margin-top: 30px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3.tieudebay {
+    font-size: 46px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.khoibay {
+    BACKGROUND: url(images/14.jpg);
+    height: 325px;
+    margin-top: 80px;
+}
+
+.linksau {
+    height: 370px;
+    width: 360px;
+    background: #fecb1c52;
+    position: absolute;
+    margin-top: -370px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 370px;
+    padding-top: 167px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.linksau:hover {
+    padding-top: 0px;
+    opacity: 1;
+}
+
+span.bon {
+    transition: 0.4s;
+}
+
+span.bon:hover {
+    color: var(--xang);
+}
+
+span.ba {
+    transition: 0.4s;
+}
+
+span.ba:hover {
+    color: var(--xang);
+}
+
+span.hai {
+    transition: 0.4s;
+}
+
+span.hai:hover {
+    color: var(--xang);
+}
+
+i.fa.fa-heart {
+    color: var(--xanh);
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+i.fa.fa-comment-alt {
+    color: var(--xanh);
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+i.fa.fa-eye {
+    color: var(--xanh);
+    margin-left: 8px;
+    margin-right: 4px;
+    font-size: 14px;
+}
+
+p.motasau {
+    font-family: 'Noticia Text', serif;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+
+
+.khoinho1 {
+    width: 360px;
+    height: 606px;
+    background: #f5f6f3;
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.khoisau {
+}
+
+p.motanam {
+    font-size: 18px;
+    color: white;
+    margin-left: 1181px;
+    width: 326px;
+    margin-top: 32px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3.motanam {
+    font-size: 46px;
+    font-weight: 700;
+    width: 608px;
+    color: white;
+    margin-left: 1181px;
+    padding-top: 270px;
+    width: 453px;
+}
+
+.khoinam {
+    background: url(images/21.jpg);
+    height: 701px;
+    margin-top: 80px;
+}
+
+img.khoinam {
+    width: 109px;
+    height: 140px;
+    background: none;
+    margin-left: 1040px;
+    position: absolute;
+    margin-top: 270px;
+}
+
+button.btn.btn-primary.p2 {
+    font-size: 16px;
+    font-weight: 600;
+    background: var(--xanh);
+    border-radius: 32px;
+    border: none;
+    width: 228px;
+    height: 48px;
+    margin: auto;
+    transition: 0.4s;
+    margin-left: 815px;
+    margin-top: 32px;
+}
+
+button.btn.btn-primary.p2:hover {
+    BACKGROUND: WHITE;
+    color: var(--xanh);
+    border: 2px solid var(--xanh);
+}
+
+button.btn.btn-primary.p1.khoibon {
+    width: 139px;
+    margin-left: 80px;
+    margin-top: 6px;
+}
+
+p.motabon {
+    font-weight: 700;
+    margin-top: 29px;
+    text-align: center;
+    color: #898989;
+}
+
+h4.tieudeduong {
+    font-weight: 800;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 41px;
+    color: #3a3a3a;
+    transition: 0.4s;
+    font-family: 'Nunito', sans-serif;
+}
+
+h4.tieudeduong.khoisau:hover {
+    color: var(--xang);
+}
+
+h4.khoisau {
+    width: 253px;
+    text-align: center;
+    margin-left: 53px;
+}
+
+.linkbon {
+    width: 300px;
+    height: 282px;
+    position: absolute;
+    background: #fecb1c52;
+    text-align: center;
+    line-height: 282px;
+    font-size: 35px;
+    color: white;
+    opacity: 0;
+    padding-top: 122px;
+    transition: 0.4s;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+
+.linkbon:hover {
+    opacity: 1;
+    padding-top: 0px;
+}
+
+.linkbon {}
+
+img.khoibon {
+    margin-left: 82px;
+    margin-top: 40px;
+}
+
+.khoiduong {
+    width: 300px;
+    height: 500px;
+    background: #f5f6f3;
+    border-radius: 18px;
+    position: relative;
+    margin-top: 16px;
+}
+
+p.motaba {
+}
+
+p.motaba {
+    font-size: 18px;
+    color: white;
+    margin-left: 316px;
+    margin-top: 33px;
+    font-family: 'Nunito', sans-serif;
+}
+
+h3.motaba {
+    font-size: 46px;
+    font-weight: 700;
+    width: 608px;
+    color: white;
+    margin-left: 316px;
+    padding-top: 239px;
+}
+
+.khoiba {
+    background: url(images/5.jpg);
+    position: relative;
+    margin-top: 40px;
+    height: 701px;
+}
+
+i.fa.fa-link {
+}
+
+i.fa.fa-link {
+    text-align: center;
+    text-shadow: -4px -1px 0px #00000052;
+}
+
+i.fa.fa-link.bon {}
+
+.link {
+    position: absolute;
+    margin-top: 90px;
+    left: 100px;
+    color: white;
+    font-size: 35px;
+    width: 130px;
+    height: 130px;
+    background: none;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 130px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.link:hover {
+    opacity: 1;
+    margin-top: 40px;
+}
+
+.khoimot:hover .icon-1 {
+    opacity: 1!important;
+}
+
+.khoimot:hover .icon-2 {opacity: 1!important;}
+
+ul.ul1:hover .icon-1 {
+    opacity: 1!important;
+}
+
+button.btn.btn-primary.p1 {
+    width: 100px;
+    height: 36px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 32px;
+    background: none;
+    color: var(--xanh);
+    border: 2px solid var(--xanh);
+    margin-left: 100px;
+    margin-top: 36px;
+    transition: 0.4s;
+}
+
+button.btn.btn-primary.khoisau {
+    width: 129px;
+    margin-top: 7px;
+    margin-left: 115px;
+}
+button.btn.btn-primary.p1:hover{
+    background: var(--xanh);
+    color: white;
+}
+
+p.motatra {
+    font-size: 14px;
+    width: 203px;
+    margin: auto;
+    text-align: center;
+    margin-top: 22px;
+    color: #3a3a3a;
+    font-family: 'Nunito', sans-serif;
+}
+
+h4.tieudetra {
+    font-weight: 800;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 40px;
+    color: #3a3a3a;
+    font-family: 'Nunito', sans-serif;
+}
+
+img.tra {
+    margin-top: 40px;
+    margin-left: 85px;
+}
+
+.khoitra {
+    height: 500px;
+    width: 300px;
+    background: #f5f6f3;
+    border-radius: 18px;
+    margin-top: 14px;
+}
+
+p.motamot {
+    font-size: 20px;
+    color: #8d8d8d;
+    text-align: center;
+    margin-top: 32px;
+    font-family: 'Nunito', sans-serif;
+}
+
+hr.khoimot {
+    background: var(--xanh);
+    width: 64px;
+    margin: auto;
+    height: 1px;
+    margin-top: 32px;
+}
+
+hr.khoimot {}
+
+hr.khoinam {
+    margin-left: 1181px;
+    margin-top: 23px;
+}
+
+hr.khoiba {
+    margin-left: 316px;
+    margin-top: 21px;
+}
+
+h3.tieudemot {
+    font-size: 34px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 89px;
+}
+
+.mot {
+}
+
+span.mot {
+    transition: 0.4s;
+}
+
+span.mot:hover {
+    color: var(--xang);
+}
+
+li.slide3 {
+}
+
+li.slide2 {
+}
+
+li.mot {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+li.slide1 {
+}
+
+ul.ul1 {width: 1920px;height: 701px;position: relative;}
+
+button.btn.btn-primary.shop {
+    margin-left: 1036px;
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background: var(--xanh);
+    border-radius: 32px;
+    border: navajowhite;
+    width: 113px;
+    height: 48px;
+}
+
+button.btn.btn-primary.khoiba {
+    margin-left: 316px;
+    margin-top: 14px;
+    height: 48px;
+    border-radius: 32px;
+    transition: 0.4s;
+}
+
+
+button.btn.btn-primary.shop:hover {
+    color: var(--xanh);
+    border: 2px solid var(--xanh);
+    background: none;
+}
+
+button.btn.btn-primary.khoibay {
+    width: 135px;
+    margin-top: -3px;
+    margin-left: -47px;
+    height: 52px;
+    transition: 0.4s;
+}
+
+button.btn.btn-primary.khoibay:hover {
+    background: white;
+    color: var(--xanh);
+    border: none;
+}
+
+button.btn.btn-primary.khoinam {
+    width: 212px;
+    height: 48px;
+    border-radius: 32px;
+    margin-left: 1181px;
+    margin-top: 14px;
+}
+
+p.mota1 {
+    margin-left: 1036px;
+    color: white;
+    margin-top: 2px;
+    width: 352px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.h3.mota1 {
+    margin-left: 1036px;
+    font-size: 46px;
+    font-weight: 700;
+    width: 608px;
+    color: white;
+    padding-top: 235px;
+}
+
+.khoi1 {
+    background: url(images/1.jpg);
+    height: 701px;
+    margin-top: 32px;
+}
+.khoi2 {
+    background: url(images/2.jpg);
+    height: 701px;
+    margin-top: 32px;
+}
+.khoi3 {
+    background: url(images/3.jpg);
+    height: 701px;
+    margin-top: 32px;
+}
+
+img.khoiba {
+    position: absolute;
+    background: none;
+    width: 93px;
+    height: 138px;
+    margin-left: 188px;
+    margin-top: 253px;
+}
+/* .khoi4 {
+    background: url(images/5.jpg);
+    height: 701px;
+    margin-top: 32px;
+} */
+
+i.fa.fa-shopping-cart:hover {background: #fecb1c;}
+
+p.motamon {
+    font-size: 14px;
+    font-weight: 700;
+    color: #8d8d8d;
+    padding-top: 22px;
+    margin-left: 40px;
+    width: 86px;
+}
+
+i.fa.fa-shopping-cart {
+    float: left;
+    color: white;
+    background: var(--xanh);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+    margin-top: 24px;
+    transition: 0.4s;
+}
+
+button.btn.btn-primary.menuphai {
+    border-radius: 18px!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    color: #8d8d8d;
+    margin-top: 22px;
+    margin-right: -5px;
+    transition: 1s;
+}
+
+button.btn.btn-primary.TCHU {
+}
+
+.col-2.giohang {}
+
+body {
+    font-family: 'Montserrat', sans-serif!important;
+    --xanh: #9bc928;
+    --den: #8d8d8d;
+    --xang: #fecb1c;
+}
+
+u.sdt {
+    color: var(--xanh);
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 16px!important;
+    transition: 0.4s;
+    font-family: 'Nunito', sans-serif;
+}
+
+i.fa.fa-chevron-right.icon-2 {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    font-size: 24px;
+    top: 445px;
+    left: 1835px;
+    height: 68px;
+    background: #00000029;
+    width: 68px;
+    text-align: center;
+    line-height: 60px;
+    transition: 0.4s;
+    opacity: 0;
+    cursor: pointer;
+}
+
+i.fa.fa-chevron-right.icon-2:hover {
+    background: #345c44;
+}
+
+i.fa.fa-chevron-left.icon-1 {
+    color: white;
+    z-index: 10;
+    position: absolute;
+    font-size: 24px;
+    top: 445px;
+    left: 0px;
+    height: 68px;
+    background: #00000029;
+    width: 68px;
+    text-align: center;
+    line-height: 68px;
+    opacity: 0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+i.fa.fa-chevron-left.icon-1:hover {
+    background: #345c44;
+}
+
+.giohang {
+}
+
+.col-7.menu {
+    font-weight: 700;
+    margin-left: 0px;
+    padding-left: 58px;
+}
+
+a.menuphai {
+    color: #8d8d8d;
+    /* background: var(--xanh); */
+    text-decoration: none;
+    border: 2px solid var(--xanh);
+    border-radius: 18px;
+    line-height: 80px;
+}
+
+.col-3.menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo {
+    line-height: 72px;
+}
+
+header {
+    height: 80px;
+    background: white;
+   
+    transition: 0.8s!important;
+}
+button.btn.btn-primary:hover {
+}
+
+button.btn.btn-primary.menuphai:hover {
+    border: 2px solid var(--xanh);
+    color: var(--xanh);
+}button.btn.btn-primary.menuphai {
+    background: white;
+    border-radius: 18px!important;
+    font-size: 14px!important;
+    font-weight: 700!important;
+    color: #8d8d8d;
+    margin-top: 22px;
+    margin-right: -2px;
+    border:none;
+    transition: 0.7s;
+    border: 2px solid white;
+}
+
+button.btn.btn-primary.TCHU {
+    border: 2px solid var(--xanh)!important;
+    color: #9bc928;
+}
+
+.active{
+    opacity: 1!important;
+}
+.hien {
+    position: fixed;
+    z-index: 999;
+    width: 1920px;
+    transition: 0.4s;
+    box-shadow: 0 0 4px 3px #0000002b;
+}
+img.xoai {
+    margin-left: 98.5px;
+}
+.row.khoixoai {
+    margin-top: 16px;
+}
+span.927:hover{
+    color:var(--xang);
+}
+.khoisau .row {
+    margin-top: 30px;
+}
+.col.vechungtoi {
+    margin-left: 107px;
+    margin-right: -3px;
+}
+.hiennut{
+    opacity: 1!important;
+    bottom: 24px;
+}
